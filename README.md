@@ -15,19 +15,22 @@ To run the project, you will need to have Dagster installed. Once you have Dagst
 
 1. Clone the repository
 ```bash
-   git clone https://github.com/your-username/dagster-api-fetching.git](https://github.com/MansiBhatt12/Dagster_Project.git
+git clone https://github.com/your-username/dagster-api-fetching.git](https://github.com/MansiBhatt12/Dagster_Project.git
 ```
    
 2. Install the dependencies
-           ```bash
-              pip install -e ".[dev]"
-           ```
- * Note: Don't forget to import, install necessary packages
-           ```bash
-             pip install package_name
-           ```
+```bash
+pip install -e ".[dev]"
+```
+* Note: Don't forget to import, install necessary packages
+```bash
+pip install package_name
+```
 
-3. Run the command ```bash dagster dev```
+3. Run the command
+```bash
+dagster dev
+```
 
 This will start the Dagster UI on your local machine. You can then use the UI to interact with the project.
 
