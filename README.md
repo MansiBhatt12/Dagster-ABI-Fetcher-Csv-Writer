@@ -1,8 +1,14 @@
-# dagster_project
+# Dagster Project to Fetch APIs and Save to CSV
 
-This is a [Dagster](https://dagster.io/) project scaffolded with [`dagster project scaffold`](https://docs.dagster.io/getting-started/create-new-project).
+This Dagster project fetches data from APIs for 5 contract addresses and saves the information to a CSV file. It utilizes Dagster, Dataframes (pandas), and interacts with APIs to fetch all available ABIs for the specified contract addresses.The code is written in Python and uses the Dagster library to orchestrate the pipeline.
 
-## Getting started
+## Features
+
+    The project can fetch APIs for 5 contract addresses.
+    The data is saved to a CSV file.
+    There is scheduled pipeline, defined a job  and schedule to run assigned job at every hour.
+    The project uses the File System I/O Manager to save the data to a permanent location.
+
 
 First, install your Dagster code location as a Python package. By using the --editable flag, pip will install your Python package in ["editable mode"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) so that as you develop, local code changes will automatically apply.
 
