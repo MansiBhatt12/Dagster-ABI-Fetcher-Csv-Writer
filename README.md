@@ -36,5 +36,5 @@ This will start the Dagster UI on your local machine. You can then use the UI to
 
 Open your web browser and navigate to http://localhost:3000 to access the Dagster UI.
 
-Click on the Materialize in the Dagster UI and execute it. The pipeline will fetch data from the APIs, process it using pandas, and save it to a CSV file in you project directory.
+Click on the Materialize in the Dagster UI and execute it. The pipeline will fetch data from the APIs, process it using pandas, and save it to a CSV file in your project directory.
 
