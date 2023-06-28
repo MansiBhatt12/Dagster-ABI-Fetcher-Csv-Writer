@@ -13,11 +13,11 @@ This Dagster project fetches data from APIs for 5 contract addresses and saves t
 
 To run the project, you will need to have Dagster installed. Once you have Dagster installed in you python local environment, you can run the project by following these steps:
 
-1. Clone the repository.
+1. Clone the repository
            ```bash
-             git clone https://github.com/your-username/dagster-api-fetching.git
+              git clone https://github.com/your-username/dagster-api-fetching.git](https://github.com/MansiBhatt12/Dagster_Project.git
            ```
-3. Install the dependencies.
+3. Install the dependencies
            ```bash
               pip install -e ".[dev]"
            ```
