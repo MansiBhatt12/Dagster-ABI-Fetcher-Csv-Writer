@@ -4,10 +4,10 @@ This Dagster project fetches data from APIs for 5 contract addresses and saves t
 
 ## Features
 
-    The project can fetch APIs for 5 contract addresses.
-    The data is saved to a CSV file.
-    There is scheduled pipeline, defined a job  and schedule to run assigned job at every hour.
-    The project uses the File System I/O Manager to save the data to a permanent location.
+*The project can fetch APIs for 5 contract addresses.
+*The data is saved to a CSV file.
+*There is scheduled pipeline, defined a job  and schedule to run assigned job at every hour.
+*The project uses the File System I/O Manager to save the data to a permanent location.
 
 
 First, install your Dagster code location as a Python package. By using the --editable flag, pip will install your Python package in ["editable mode"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) so that as you develop, local code changes will automatically apply.
