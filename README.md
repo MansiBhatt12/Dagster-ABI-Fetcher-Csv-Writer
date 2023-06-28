@@ -6,49 +6,26 @@ This Dagster project fetches data from APIs for 5 contract addresses and saves t
 
 * The project can fetch APIs for 5 contract addresses.
 * The data is saved to a CSV file.
-* There is scheduled pipeline, defined a job  and schedule to run assigned job at every hour.
-* The project uses the File System I/O Manager to save the data to a permanent location.
+* The project includes scheduled pipeline, a predefined job and schedule to run the pipeline every hour. 
+* The project uses the File System I/O Manager to store the fetched data in a directory called 'data' in your file system to a more permanent location. 
 
+## How to Use
 
-First, install your Dagster code location as a Python package. By using the --editable flag, pip will install your Python package in ["editable mode"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) so that as you develop, local code changes will automatically apply.
+To run the project, you will need to have Dagster installed. Once you have Dagster installed in you python local environment, you can run the project by following these steps:
 
-```bash
-pip install -e ".[dev]"
-```
+1. Clone the repository.
+           ```bash
+             git clone https://github.com/your-username/dagster-api-fetching.git
+           ```
+3. Install the dependencies.
+           ```bash
+              pip install -e ".[dev]"
+           ```
+5. Run the command ```bash dagster dev```
 
-Then, start the Dagster UI web server:
+This will start the Dagster UI on your local machine. You can then use the UI to interact with the project.
 
-```bash
-dagster dev
-```
+Open your web browser and navigate to http://localhost:3000 to access the Dagster UI.
 
-Open http://localhost:3000 with your browser to see the project.
+Click on the Materialize in the Dagster UI and execute it. The pipeline will fetch data from the APIs, process it using pandas, and save it to a CSV file in you project directory.
 
-You can start writing assets in `dagster_project/assets.py`. The assets are automatically loaded into the Dagster code location as you define them.
-
-## Development
-
-
-### Adding new Python dependencies
-
-You can specify new Python dependencies in `setup.py`.
-
-### Unit testing
-
-Tests are in the `dagster_project_tests` directory and you can run tests using `pytest`:
-
-```bash
-pytest dagster_project_tests
-```
-
-### Schedules and sensors
-
-If you want to enable Dagster [Schedules](https://docs.dagster.io/concepts/partitions-schedules-sensors/schedules) or [Sensors](https://docs.dagster.io/concepts/partitions-schedules-sensors/sensors) for your jobs, the [Dagster Daemon](https://docs.dagster.io/deployment/dagster-daemon) process must be running. This is done automatically when you run `dagster dev`.
-
-Once your Dagster Daemon is running, you can start turning on schedules and sensors for your jobs.
-
-## Deploy on Dagster Cloud
-
-The easiest way to deploy your Dagster project is to use Dagster Cloud.
-
-Check out the [Dagster Cloud Documentation](https://docs.dagster.cloud) to learn more.
