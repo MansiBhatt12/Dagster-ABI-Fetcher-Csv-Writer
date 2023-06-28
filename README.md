@@ -1,4 +1,4 @@
-# Dagster Project to Fetch APIs and Save to CSV
+# Dagster Project to Fetch APIs and Save to CSV File 
 
 This Dagster project fetches data from APIs for 5 contract addresses and saves the information to a CSV file. It utilizes Dagster, Dataframes (pandas), and interacts with APIs to fetch all available ABIs for the specified contract addresses.The code is written in Python and uses the Dagster library to orchestrate the pipeline.
 
@@ -11,7 +11,7 @@ This Dagster project fetches data from APIs for 5 contract addresses and saves t
 
 ## How to Use
 
-To run the project, you will need to have Dagster installed. Once you have Dagster installed in you python local environment, you can run the project by following these steps:
+To run the project, you will need to have Dagster installed. Once you have Dagster installed in your python local environment, you can run the project by following these steps:
 
 1. Clone the repository
 ```bash
