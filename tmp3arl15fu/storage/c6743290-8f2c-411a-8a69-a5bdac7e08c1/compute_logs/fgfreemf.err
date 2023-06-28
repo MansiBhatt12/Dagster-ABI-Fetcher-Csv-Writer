@@ -1,0 +1,7 @@
+[32m2023-06-23 17:45:31 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - c6743290-8f2c-411a-8a69-a5bdac7e08c1 - 328618 - LOGS_CAPTURED - Started capturing logs in process (pid: 328618).
+[32m2023-06-23 17:45:31 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - c6743290-8f2c-411a-8a69-a5bdac7e08c1 - 328618 - fetch_api - STEP_START - Started execution of step "fetch_api".
+[32m2023-06-23 17:45:32 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - c6743290-8f2c-411a-8a69-a5bdac7e08c1 - 328618 - fetch_api - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2023-06-23 17:45:32 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - c6743290-8f2c-411a-8a69-a5bdac7e08c1 - fetch_api - Writing file at: /home/mansi-bhatt/dagster/dagster-project/tmp3arl15fu/storage/fetch_api
+[32m2023-06-23 17:45:32 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - c6743290-8f2c-411a-8a69-a5bdac7e08c1 - 328618 - fetch_api - ASSET_MATERIALIZATION - Materialized value fetch_api.
+[32m2023-06-23 17:45:32 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - c6743290-8f2c-411a-8a69-a5bdac7e08c1 - 328618 - fetch_api - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-06-23 17:45:32 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - c6743290-8f2c-411a-8a69-a5bdac7e08c1 - 328618 - fetch_api - STEP_SUCCESS - Finished execution of step "fetch_api" in 1.22s.

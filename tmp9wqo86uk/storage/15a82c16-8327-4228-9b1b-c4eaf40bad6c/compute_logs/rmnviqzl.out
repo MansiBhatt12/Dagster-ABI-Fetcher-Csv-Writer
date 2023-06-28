@@ -1,0 +1,12 @@
+shape: (5, 3)
+┌────────┬─────────┬───────────────────────────────────┐
+│ status ┆ message ┆ result                            │
+│ ---    ┆ ---     ┆ ---                               │
+│ str    ┆ str     ┆ list[struct[13]]                  │
+╞════════╪═════════╪═══════════════════════════════════╡
+│ 1      ┆ OK      ┆ [{"Contract source code not veri… │
+│ 1      ┆ OK      ┆ [{"Contract source code not veri… │
+│ 1      ┆ OK      ┆ [{"Contract source code not veri… │
+│ 1      ┆ OK      ┆ [{"Contract source code not veri… │
+│ 1      ┆ OK      ┆ [{"Contract source code not veri… │
+└────────┴─────────┴───────────────────────────────────┘

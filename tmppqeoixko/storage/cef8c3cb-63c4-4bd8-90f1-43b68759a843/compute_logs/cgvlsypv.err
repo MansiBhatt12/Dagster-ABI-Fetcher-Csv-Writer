@@ -1,0 +1,24 @@
+[32m2023-06-23 16:37:15 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cef8c3cb-63c4-4bd8-90f1-43b68759a843 - 232850 - LOGS_CAPTURED - Started capturing logs in process (pid: 232850).
+[32m2023-06-23 16:37:15 +0530[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - cef8c3cb-63c4-4bd8-90f1-43b68759a843 - 232850 - fetch_ids - STEP_START - Started execution of step "fetch_ids".
+[32m2023-06-23 16:37:15 +0530[0m - dagster - [34mERROR[0m - [31m__ASSET_JOB - cef8c3cb-63c4-4bd8-90f1-43b68759a843 - 232850 - fetch_ids - STEP_FAILURE - Execution of step "fetch_ids" failed.
+
+dagster._core.errors.DagsterExecutionStepExecutionError: Error occurred while executing op "fetch_ids"::
+
+NameError: name 'contract_address' is not defined
+
+Stack Trace:
+  File "/home/mansi-bhatt/dagster/venv/lib/python3.11/site-packages/dagster/_core/execution/plan/utils.py", line 54, in op_execution_error_boundary
+    yield
+  File "/home/mansi-bhatt/dagster/venv/lib/python3.11/site-packages/dagster/_utils/__init__.py", line 445, in iterate_with_context
+    next_output = next(iterator)
+                  ^^^^^^^^^^^^^^
+  File "/home/mansi-bhatt/dagster/venv/lib/python3.11/site-packages/dagster/_core/execution/plan/compute_generator.py", line 124, in _coerce_op_compute_fn_to_iterator
+    result = invoke_compute_fn(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/mansi-bhatt/dagster/venv/lib/python3.11/site-packages/dagster/_core/execution/plan/compute_generator.py", line 118, in invoke_compute_fn
+    return fn(context, **args_to_pass) if context_arg_provided else fn(**args_to_pass)
+                                                                    ^^^^^^^^^^^^^^^^^^
+  File "/home/mansi-bhatt/dagster/dagster-project/dagster_project/assets.py", line 20, in fetch_ids
+    url = f"https://api.etherscan.io/api?module=contract&action=getsourcecode&address={contract_address}&apikey={api_key}"
+                                                                                       ^^^^^^^^^^^^^^^^
+[0m

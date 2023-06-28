@@ -1,0 +1,7 @@
+[32m2023-06-26 16:30:05 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - 5814fe54-9847-4b85-b9bb-9bd73aa1c466 - 263164 - LOGS_CAPTURED - Started capturing logs in process (pid: 263164).
+[32m2023-06-26 16:30:05 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - 5814fe54-9847-4b85-b9bb-9bd73aa1c466 - 263164 - fetch_api - STEP_START - Started execution of step "fetch_api".
+[32m2023-06-26 16:30:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - 5814fe54-9847-4b85-b9bb-9bd73aa1c466 - 263164 - fetch_api - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2023-06-26 16:30:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - 5814fe54-9847-4b85-b9bb-9bd73aa1c466 - fetch_api - Writing file at: data/fetch_api
+[32m2023-06-26 16:30:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - 5814fe54-9847-4b85-b9bb-9bd73aa1c466 - 263164 - fetch_api - ASSET_MATERIALIZATION - Materialized value fetch_api.
+[32m2023-06-26 16:30:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - 5814fe54-9847-4b85-b9bb-9bd73aa1c466 - 263164 - fetch_api - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-06-26 16:30:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - 5814fe54-9847-4b85-b9bb-9bd73aa1c466 - 263164 - fetch_api - STEP_SUCCESS - Finished execution of step "fetch_api" in 1.19s.

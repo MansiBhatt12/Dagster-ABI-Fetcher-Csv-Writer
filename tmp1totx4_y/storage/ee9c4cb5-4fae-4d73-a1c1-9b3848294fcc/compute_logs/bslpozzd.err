@@ -1,0 +1,7 @@
+[32m2023-06-28 02:46:00 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - ee9c4cb5-4fae-4d73-a1c1-9b3848294fcc - 43901 - LOGS_CAPTURED - Started capturing logs in process (pid: 43901).
+[32m2023-06-28 02:46:00 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - ee9c4cb5-4fae-4d73-a1c1-9b3848294fcc - 43901 - contract_api_assets - STEP_START - Started execution of step "contract_api_assets".
+[32m2023-06-28 02:46:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - ee9c4cb5-4fae-4d73-a1c1-9b3848294fcc - 43901 - contract_api_assets - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2023-06-28 02:46:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - ee9c4cb5-4fae-4d73-a1c1-9b3848294fcc - contract_api_assets - Writing file at: data/contract_api_assets
+[32m2023-06-28 02:46:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - ee9c4cb5-4fae-4d73-a1c1-9b3848294fcc - 43901 - contract_api_assets - ASSET_MATERIALIZATION - Materialized value contract_api_assets.
+[32m2023-06-28 02:46:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - ee9c4cb5-4fae-4d73-a1c1-9b3848294fcc - 43901 - contract_api_assets - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-06-28 02:46:06 +0530[0m - dagster - [34mDEBUG[0m - fetch_job - ee9c4cb5-4fae-4d73-a1c1-9b3848294fcc - 43901 - contract_api_assets - STEP_SUCCESS - Finished execution of step "contract_api_assets" in 5.85s.
