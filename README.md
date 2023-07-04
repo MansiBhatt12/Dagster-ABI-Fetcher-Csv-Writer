@@ -1,10 +1,10 @@
-# Dagster Project to Fetch APIs and Save to CSV File 
+# Dagster Project to Fetch ABIs and Save to CSV File 
 
-This Dagster project fetches data from APIs for 5 contract addresses and saves the information to a CSV file. It utilizes Dagster, Dataframes (pandas), and interacts with APIs to fetch all available ABIs for the specified contract addresses.The code is written in Python and uses the Dagster library to orchestrate the pipeline.
+This Dagster project fetches data from ABIs for 5 contract addresses and saves the information to a CSV file. It utilizes Dagster, Dataframes (pandas), and interacts with ABIs to fetch all available ABIs for the specified contract addresses.The code is written in Python and uses the Dagster library to orchestrate the pipeline.
 
 ## Features
 
-* The project can fetch APIs for 5 contract addresses.
+* The project can fetch ABIs for 5 contract addresses.
 * The data is saved to a CSV file.
 * The project includes scheduled pipeline, a predefined job and schedule to run the pipeline every hour. 
 * The project uses the File System I/O Manager to store the fetched data in a directory called 'data' in your file system to a more permanent location. 
@@ -36,5 +36,5 @@ This will start the Dagster UI on your local machine. You can then use the UI to
 
 Open your web browser and navigate to http://localhost:3000 to access the Dagster UI.
 
-Click on the Materialize in the Dagster UI and execute it. The pipeline will fetch data from the APIs, process it using pandas, and save it to a CSV file in your project directory.
+Click on the Materialize in the Dagster UI and execute it. The pipeline will fetch data from the ABIs, process it using pandas, and save it to a CSV file in your project directory.
 
